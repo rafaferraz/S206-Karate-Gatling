@@ -1,3 +1,5 @@
+package teste_api
+
 import com.intuit.karate.gatling.PreDef._
 import io.gatling.core.Predef._
 import scala.concurrent.duration._

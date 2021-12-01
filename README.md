@@ -15,5 +15,8 @@ Executar testes separados por tags:
 mvn test -Dkarate.options="--tags @tag"
 
 Para ignorar alguma tag:
-mvn test -Dkarate.options="--tags ~@tag" 
+mvn test -Dkarate.options="--tags ~@tag"
+
+Executar testes do Gatling
+mvn clean test-compile gatling:test
 ```
