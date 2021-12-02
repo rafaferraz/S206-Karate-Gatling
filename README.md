@@ -22,7 +22,7 @@
 
     - A partir do Runner ou suíte:
     ```bash
-    mvn test –Dtest=PokemonRunner
+    mvn test –Dtest=PokemonTestRunner
     ```
 
     - Separados por tags:
