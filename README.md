@@ -14,7 +14,7 @@
 * Instalar o [Java Development Kit - JDK](https://www.oracle.com/java/technologies/downloads/)
 * Instalar o [Maven](https://maven.apache.org)
 
-## 📊 Como executar os testes!
+## 📊 Como executar os testes
 
 1. Clone este repositório
 2. Abra o terminal do GIT Bash na pasta `poke-api`
@@ -39,3 +39,15 @@
     ```bash
     mvn clean test-compile gatling:test
     ```
+## 📑 Onde encontrar os relatórios
+Os relatórios são gerado automaticamente ao rodar os comandos do item anterior.
+
+* O relatório gerado pelo Karate se encontra no arquivo `karate-summary.html` que está no seguinte caminho:
+```
+poke-api/target/karate-reports
+```
+
+* O relatório gerado pelo Gatling se encontra no arquivo `index.html` que está no seguinte caminho:
+```
+poke-api/target/gatling/{... data e hora atual}
+```
