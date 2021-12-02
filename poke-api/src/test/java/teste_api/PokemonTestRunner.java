@@ -1,4 +1,4 @@
-package teste_api.pokemon;
+package teste_api;
 
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
